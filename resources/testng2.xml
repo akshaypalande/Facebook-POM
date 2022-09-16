@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.facebook.qa.ExtentListner.ExtentReporterNG"/>
+    </listeners>
+
+	<test name="Facebook App Test Cases">
+		<classes>
+			<class name="com.facebook.qa.test.LoginPageTest"></class>
+			<class name="com.facebook.qa.test.HomePageTest"></class>
+			<class name="com.facebook.qa.test.ProfilePageTest"></class>
+			<class name="com.facebook.qa.test.SignUpPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
